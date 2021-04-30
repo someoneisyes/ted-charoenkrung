@@ -1,0 +1,37 @@
+.hero-container{
+    height: 50vh;
+    width: 50vw;
+    border-radius: 0 0 0px 10vw;
+    background-image: url('../../static/Group18.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 130% -50%;
+    background-color: rgb(255, 231, 235);
+
+    overflow: hidden;
+}
+.hero{
+    position: relative;
+    bottom: -8vh;
+    height: 50vh;
+}
+
+/* Mobile style */
+
+.hero-container-mobile{
+    height: 37vh;
+    width: 100%;
+    border-radius: 0 0 0px 40vw;
+    background-image: url('../../static/Group18.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 130% -50%;
+    background-color: rgb(255, 231, 235);
+
+    overflow: hidden;
+}
+.hero-mobile{
+    position: relative;
+    bottom: -5vh;
+    height: 40vh;
+}
